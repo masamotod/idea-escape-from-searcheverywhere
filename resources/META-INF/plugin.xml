@@ -2,6 +2,7 @@
   <id>org.masamotod.idea.EscapeFromSearchEverywhere</id>
   <name>Escape from SearchEverywhere</name>
   <version>1.0</version>
+  <vendor email="masamotod@gmail.com" url="http://masamotod.org">@masamotod</vendor>
 
   <description><![CDATA[
       Make it be possible to close the 'Search Everywhere' popup by the ESC key.
