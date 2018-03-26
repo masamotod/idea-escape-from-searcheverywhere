@@ -1,0 +1,27 @@
+<idea-plugin>
+  <id>org.masamotod.idea.EscapeFromSearchEverywhere</id>
+  <name>Escape from SearchEverywhere</name>
+  <version>1.0</version>
+
+  <description><![CDATA[
+      Make it be possible to close the 'Search Everywhere' popup by the ESC key.
+    ]]></description>
+
+  <change-notes><![CDATA[
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="145.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.lang</depends>
+
+  <application-components>
+    <component>
+      <implementation-class>org.masamotod.idea.EscapeFromSearchEverywhere.EscapeHandler</implementation-class>
+    </component>
+  </application-components>
+
+</idea-plugin>
